@@ -1,0 +1,12 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: bootstrap_sandbox_development
+
+test:
+  <<: *default
+  database: bootstrap_sandbox_test
