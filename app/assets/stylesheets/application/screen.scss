@@ -1,0 +1,37 @@
+@import "base";
+
+
+
+
+
+
+
+/* Large devices (desktops, more than 1200px) */
+@media (min-width: 1200px) {
+
+}
+
+/* Medium devices (slim desktops, 992px and 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Small devices (large tablets, 768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Small devices (small tablets, 600px to 767px) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+}
+
+/* Extra small devices (mobile phones, 480px to 599px) */
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+
+}
+
+/* Extra small devices (small mobile phones, less than 480px) */
+@media only screen and (max-width: 479px) {
+
+}
