@@ -30,6 +30,9 @@ gem 'jbuilder', '~> 2.0'
 # Postprocessor for adding CSS vendor prefixes
 gem 'autoprefixer-rails'
 
+# Twitter Bootstrap sass integration
+gem 'bootstrap-sass'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
